@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+
+ 
+@media all and (max-width:1198px){
+
+
+	/* width:970px  */
+	.wrap1170 { max-width:970px; }
+	#header nav ul li:nth-child(2) span { display:none; }
+	#header aside ul li span small { display:none; }	
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div { max-width:970px; }
+
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle h2 { font-size:80px; line-height:130%; }
+
+
+	#section4 .sec4-left  { width:100%; height:600px; }
+	#section4 .sec4-right { width:100%; height:600px; }
+
+	#section5 .top .title { float:left; width:100%; text-align:center; padding-bottom:30px; }
+
+	#section5 .top .work-nav  { float:none; width:100%; }
+	#section5 .top .work-nav ul { width:100%; text-align:center; }
+	#section5 .latest-work { padding-top:35px; }
+	
+	
+	#section7 .content > ul > li:nth-child(1) { width:50%; }
+	#section7 .content > ul > li:nth-child(2) { width:50%; }
+	#section7 .content > ul > li:nth-child(3) { width:100%; }
+	#section7 .content > ul > li > div > .content-3 >.timeBar-wrap > li div { margin:10px 0; }
+
+}
+ 
+ 
+@media all and (max-width:990px){
+
+	.wrap1170 { max-width:750px; }
+	.section { padding:80px 0;}
+
+
+	/* 앱바 나오기 */
+	#header .wrap1170 { max-width:1170px; }
+	#header nav ul li span  { display:none; }
+	#header aside { display:none; }
+	#header .mobileBtn-wrap { display:block; }
+
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div { max-width:780px; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle { width:70%; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle span { padding:35px 0; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle span i { width:380px; }
+
+
+	#section2 .sec2-left  { float:none; width:100%; padding-bottom:55px; }
+	#section2 .sec2-right { float:none; width:100%; }
+	#section2 .sec2-right ul li { float:left; width:50%; }
+
+
+	#section3 .content ul li { float:left; width:50%; padding-bottom:45px; }
+	#section3 .content ul li:nth-child(3) { padding-bottom:0; }
+	#section3 .content ul li:nth-child(4) { padding-bottom:0; }
+	#section3 .content ul li:nth-child(2) div { border-right:0; }
+
+
+	#section4 .sec4-left  { height:507px; background:url(../img/parallax-img1-1-1024x507.jpg) no-repeat 50% 50%; }
+
+
+	#section6 ul > li { width:20%; }
+
+
+	#section7 .content > ul > li:nth-child(1) { width:100%; height:276px; }
+	#section7 .content > ul > li:nth-child(2) { width:100%; height:500px; }	
+	#section7 .content > ul > li > div > .content-1 { padding:99px; }
+	#section7 .content > ul > li > div > .content-3 { padding:95px; }
+
+
+	#section8 .content ul li div .text { width:100% }
+	
+
+	#section9 .content .sec9-left  { width:100%; padding-bottom:60px; }
+	#section9 .content .sec9-right { width:100%; }
+
+
+	#section10 ul li { width:50%; }
+
+	#section11 .title p { width:100%; line-height:160%; }
+	#section12 ul > li > div .content .sec12-right { width:18%;  }
+	#section12 ul > li > div .content .sec12-left { width:82%; }
+	#section12 ul > li > div .content .sec12-left span.text { padding:18px 0; }
+	#section12 ul > li > div .content .sec12-left span.text a { line-height:160%; }
+
+	#section14 .text { padding-bottom:50px; }
+	#section14 .text .text-left  { width:100%; padding-bottom:20px; }
+	#section14 .text .text-right { width:100%; }
+	#section14 .text .text-right span { font-size:16px; }
+
+	#section14 .content > ul > li:nth-child(1) { width:100%; }
+	#section14 .content > ul > li:nth-child(1) > div > ul > li { float:left; width:33.33%; } 
+
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(1) { width:15%;  } 
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(1) div span i { font-size:25px;}
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(2) { width:70%;  } 
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(2) div h4 { line-height:150%; }
+	#section14 .content > ul > li:nth-child(2) { width:100%; }
+	
+
+}
+ 
+@media all and (max-width:810px){
+
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div { max-width:700px; margin:0 30px; }
+
+}
+ 
+@media all and (max-width:765px){
+	
+	.title { text-align:center; }
+	.title h2 { font-size:38px; }	
+	.section { padding:60px 0; }
+
+	.wrap1170 { max-width:650px; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle { top:40%; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle h2 { font-size:55px; line-height:110%;  }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle span { padding:20px 0; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle span i { width:300px; }
+
+
+	#section2 .sec2-left  { text-align:center; padding-bottom:80px; }
+	#section2 .sec2-left .content { width:100%; }
+	#section2 .sec2-left .content h3 { font-size:18px; padding-bottom:30px; line-height:140%; }
+	#section2 .sec2-left .content p { font-size:14px; font-family:'Roboto'; color:#626262; padding-bottom:50px; }
+	
+
+	#section2 .sec2-right ul li { width:100%; text-align:center; }
+	#section2 .sec2-right ul li div { margin-bottom:45px; }
+	#section2 .sec2-right ul li div span.line { padding:25px 0; }
+
+
+	#section3 .content ul li { width:100%; padding-bottom:60px; }
+	#section3 .content ul li:nth-child(3) { padding-bottom:60px; }
+	#section3 .content ul li div { border-right:0; }
+
+
+	#section4 .sec4-left  { height:300px; background:url(../img/parallax-img1-1-768x380.jpg) no-repeat 50% 50%; background-size:cover; }
+	#section4 .sec4-right { height:auto; }
+	#section4 .sec4-right ul > li { width:100%; }
+	#section4 .sec4-right ul > li > div > .content { width:95%; } 
+	#section4 .sec4-right ul > li > div > .content span i { padding-bottom:25px; }
+	#section4 .sec4-right ul > li > div > .content p { line-height:160%; }
+
+
+	#section5 { padding-top:60px; }
+	#section5 .top .title { padding-bottom:80px; }
+	#section5 .top .work-nav { width:30%; margin:0 auto; }
+	#section5 .top .work-nav ul li div { margin:6px 18px; }
+	#section5 .latest-work { padding-top:50px; }
+
+	#section6 ul > li { width:100%; padding-bottom:70px; }
+	#section6 ul > li:last-child { padding-bottom:0; }
+	
+
+	#section7 .content > ul > li:nth-child(2) { width:100%; height:320px; }	
+	#section7 .content > ul > li:nth-child(3) { width:100%; height:auto; }	
+	#section7 .content > ul > li > div > .content-1 { padding:76.500px; }
+	#section7 .content > ul > li > div > .content-3 { padding:55px; }
+
+
+	#section8 .content > ul > li { float:left; width:100%; }
+	#section8 .content > ul > li > div { padding-bottom:70px; }
+
+
+	#section9 .content .sec9-left  { text-align:center; }
+	#section9 .content .sec9-left p { width:100%; padding-bottom:30px; }
+	#section9 .content .sec9-right ul li { width:100%; padding-bottom:60px;  }
+	#section9 .content .sec9-right ul li:last-child { padding-bottom:0;  }
+	#section9 .content .sec9-right ul li div { border-right:0; }
+
+	#section10 ul li { width:100%; }
+
+
+	#section12 ul > li > div .content .sec12-right { width:100%; padding-bottom:15px; }
+	#section12 ul > li > div .content .sec12-right span { padding:8px 10px;}
+	#section12 ul > li > div .content .sec12-left { width:100%; }
+	#section12 ul > li > div .content .sec12-left span.text { padding:12px 0; }
+	#section12 ul > li > div .content .sec12-left span.text a { font-size:18px; }
+	#section12 span.button { padding-top:60px; }
+	
+	#section13 { padding-top:60px; }
+
+	#section14 .text .text-left  { padding-bottom:50px; }
+	#section14 .text .text-left p { width:100%; text-align:center; }
+	#section14 .text .text-right { width:100%; text-align:center; }
+	
+	#section14 .content > ul > li:nth-child(1) > div > ul > li { float:left; width:100%; text-align:center; } 
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(1) { width:100%; }
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(1) div span i { padding-bottom:20px; }
+	#section14 .content > ul > li:nth-child(1) > div > ul > li > div > ul > li:nth-child(2) { width:100%; }  
+	
+	
+}
+ 
+
+@media all and (max-width:480px){
+
+	.title h2 { font-size:35px; }
+
+	#header .mobile { text-align:center; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle { width:75%; margin:0 auto; text-align:center; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div { margin:0; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle h2 { font-size:40px; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle span { padding-top:10px; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle span i { width:40px; height:4px; }
+	#section1 .content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide > div > .mainTitle p { font-size:12px; line-height:140%; }
+
+	#section4 .sec4-left  { background:url(../img/parallax-img1-1-768x380.jpg) no-repeat 0 50%; background-size:cover; }
+	#section4 .sec4-right ul { padding:30px; }
+	#section4 .sec4-right ul > li > div > .content { width:90%; } 
+	#section4 .sec4-right ul > li > div > .content span i { font-size:52px; }
+
+
+	#section5 .top .work-nav { width:45%;}
+
+	#section6 .sec6-title h2 { line-height:150%; }
+	#section6 ul > li { padding-bottom:50px; }
+
+	#section7 .content > ul > li > div > .content-1 { padding:8%; }
+	#section7 .content > ul > li > div > .content-1 h2 { font-size:25px; }
+	#section7 .content > ul > li > div > .content-3 { padding:30px; }
+	#section7 .content > ul > li > div > .content-3 >.timeBar-wrap > li div { margin:8px 0; }
+
+	#section12 span.button { padding-top:40px; }
+
+	#section13 .content span.button { display:block; padding:8px 0; }
+	
+	#section14 .text .text-right span { display:inline-block; padding-bottom:15px; }
+	#footer .content p { width:90%; line-height:180%; margin:0 auto; }
+	#footer .content span.icon { padding:35px 0; }
+
+}
+
+@media all and (max-width:320px){
+
+	#section6 .sec6-title h2 { font-size:18px; }
+	#section4 .sec4-right ul > li > div > .content { width:100%; } 
+	.foot p {
+		font-size: 14px;
+		font-weight: 500;
+		color: #bbb;
+	}
+	
+
+
+}
